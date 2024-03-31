@@ -4,4 +4,3 @@ https://www.wampserver.com/fr/
 
 Téléchager :
 <img scr="./img/wamp-download.webp" width="300">
-![download](./img/wamp-download.webp)
