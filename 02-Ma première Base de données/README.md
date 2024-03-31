@@ -84,7 +84,8 @@ Les principaux types de champs:
 
 
 Les dates:
-
+| Champs | Informations |
+|----|---|
 | DATE | juste la date  |
 | DATETIME | la date et l'heure |
 | TIMESTAMP | la date et l'heure - nobre de secondes écoulées depuis 1 er janv 1970 |
