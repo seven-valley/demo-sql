@@ -26,7 +26,7 @@ USE videotheque;
 ```
 
 Il est possible d'éffacer sa base
-**Attention toutes les tables et donnée seront éffacées !** :scream:
+:warning: **Attention toutes les tables et donnée seront éffacées !** :scream:
 ```mysql
 DROP DATABASE ma_data_base
 ```
@@ -38,7 +38,7 @@ CREATE TABLE film(...);
 ```
 
 Effacer une table :
-**Attention toutes les données seront éffacées !** :sweat_smile:
+:warning: **Attention toutes les données seront éffacées !** :sweat_smile:
 ```mysql
 DROP TABLE film;
 ```
@@ -72,7 +72,7 @@ Les principaux types de champs:
 |----|---|
 | DATE | juste la date  |
 | DATETIME | la date et l'heure |
-| TIMESTAMP | la date et l'heure - nobre de secondes écoulées depuis 1 er janv 1970 |
+| TIMESTAMP | la date et l'heure - nombres de secondes écoulées depuis le 1er janv 1970 |
 | YEAR | juste l'année  |
 
 Autres  :
@@ -83,12 +83,13 @@ Autres  :
 
 ## :key: Mise en place d'une clé primaire sur notre table
 la clef primaire : **primary key** ou **PK**    
-Afin d'identifier une ligne de facon précise on définit une clef primaire    
-La clef peut être définit par MySQL **AI AUTO_INCREMENT**   
+Afin d'identifier une ligne de façon précise on définit une clef primaire    
+La clef primaire peut être définit par MySQL **AI AUTO_INCREMENT**   
 :lock: La contrainte de clef primaire impose d'avoir qu'un seul ID  
 c'est à dire si je rentre le même ID MySQL me bloque  
-Car je viole la contrainte de clef primaire
-Nous rajoutons la contrainte de nullité    
+Car je viole la contrainte de clef primaire  
+  
+Nous rajoutons aussi la **contrainte de nullité**    
 Car notre id ne peut être null  
 
 ```mysql
@@ -96,4 +97,39 @@ CREATE TABLE film (
   id int NOT NULL AUTO_INCREMENT PRIMARY KEY
 );
 ```
+## :movie_camera: Création des autres champs :
+:warning: Chaque ligne et terminée par une **virgule** 
+```mysql
+USE videotheque;
+CREATE TABLE film (
+  id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  titre VARCHAR(255) NOT NULL,
+  sortie DATE NOT NULL
+) ENGINE=InnoDB;
+```
 
+Il est aussi possible de définir la clef primaire à la fin :
+
+```mysql
+USE videotheque;
+CREATE TABLE film (
+  id int NOT NULL AUTO_INCREMENT,
+  titre VARCHAR(255) NOT NULL,
+  sortie DATE NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB;
+```
+
+je peux rajouter des de commentaires avec **#** ou **--**
+
+```mysql
+-- je selectionne ma database : videotheque
+USE videotheque;
+# creation table film;
+CREATE TABLE film (
+  id int NOT NULL AUTO_INCREMENT,
+  titre VARCHAR(255) NOT NULL,
+  sortie DATE NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB;
+```
