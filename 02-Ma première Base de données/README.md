@@ -26,7 +26,7 @@ USE videotheque;
 ```
 
 Il est possible d'éffacer sa base
-**Attention toutes les tables et donnée seront éffacées !**
+**Attention toutes les tables et donnée seront éffacées !** :scream:
 ```mysql
 DROP DATABASE ma_data_base
 ```
@@ -38,7 +38,7 @@ CREATE TABLE film(...);
 ```
 
 Effacer une table :
-**Attention toutes les données seront éffacées !**
+**Attention toutes les données seront éffacées !** :sweat_smile:
 ```mysql
 DROP TABLE film;
 ```
@@ -73,10 +73,15 @@ CREATE TABLE film (
 https://www.w3schools.com/mysql/mysql_datatypes.asp
 
 Les principaux types de champs:
-| INT | les entiers | de -2 147 483 648 à 2 147 483 648 |
-| TINYINT(1) | les entiers | de -128 à 127 |
-| VARCHAR(255) |les chaînes de caractères| de 0 à 255 |
-| TEXT | les chaînes de caractères | de 0 à 65 535 caractères |
+
+| Champs | Types | Valeurs |
+|----|---|---|
+| INT | entier | de -2 147 483 648 à 2 147 483 648  |
+| TINYINT(1)   | entier  | de -128 à 127 |
+| VARCHAR(255)  | chaîne de caractères  | de 0 à 255 caractères  |
+| TEXT | chaîne de caractères  | de 0 à 65 535 caractères  |
+
+
 
 date
 datetime
