@@ -9,7 +9,7 @@
 ## documentation bien utile !
 https://www.w3schools.com/mysql/default.asp
 
-## Création d'une base de données
+## Création d'une base de données &#x1F600;
 Commande pour créer une base
 ```mysql
 CREATE DATABASE ma_base;
