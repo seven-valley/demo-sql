@@ -73,10 +73,10 @@ CREATE TABLE film (
 https://www.w3schools.com/mysql/mysql_datatypes.asp
 
 Les principaux types de champs:
-|INT| les entiers | de -2 147 483 648 à 2 147 483 648 |
-|TINYINT(1)| les entiers | de -128 à 127 |
-|VARCHAR(255)|les chaînes de caractères|de 0 à 255|
-|TEXT |les chaînes de caractères| de 0 à 65 535 caractères|
+| INT | les entiers | de -2 147 483 648 à 2 147 483 648 |
+| TINYINT(1) | les entiers | de -128 à 127 |
+| VARCHAR(255) |les chaînes de caractères| de 0 à 255 |
+| TEXT | les chaînes de caractères | de 0 à 65 535 caractères |
 
 date
 datetime
