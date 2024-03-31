@@ -3,4 +3,4 @@
 https://www.wampserver.com/fr/
 
 Téléchager :
-![alt text](.img/wamp-download.webp)
+![download](./img/wamp-download.webp)
