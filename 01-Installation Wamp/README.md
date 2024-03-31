@@ -19,7 +19,7 @@ https://wampserver.aviatechno.net/
 
 
 ## 4 nettoyage !
-Après l'installation néttoyer le repertoire **www**
+Après l'installation néttoyer le repertoire **www** :  
 Ne garder que l'icone !
 
 ```
