@@ -53,22 +53,6 @@ CREATE TABLE film (..) ENGINE=InnoDB;
 ```
 
 
-## Mise en place d'une clé primaire sur notre table
-la clef primaire : **primary key ou PK**
-Afin d'identifier une ligne de facon précise on définit une clef primaire  
-La clef peut être définit par MySQL **AI AUTO_INCREMENT**
-La contrainte de clef primaire impose d'avoir qu'un seul ID  
-c'est à dire si je rentre le même ID MySQL me bloque
-Car je viole la contrainte de clef primaire
-Nous rajoutons la contrainte de nullité  
-Car notre id ne peut être null
-
-```mysql
-CREATE TABLE film (
-  id int NOT NULL AUTO_INCREMENT PRIMARY KEY
-);
-```
-
 ## Les type de champs : Data types
 https://www.w3schools.com/mysql/mysql_datatypes.asp
 
@@ -83,10 +67,33 @@ Les principaux types de champs:
 | DECIMAL(3,2) | réels | de -999.00 à 999.00 |
 
 
-Les dates:
+:watch: Les dates  :
 | Champs | Informations |
 |----|---|
 | DATE | juste la date  |
 | DATETIME | la date et l'heure |
 | TIMESTAMP | la date et l'heure - nobre de secondes écoulées depuis 1 er janv 1970 |
 | YEAR | juste l'année  |
+
+Autres  :
+| Champs | Informations |
+|----|---|
+| ENUM('vert','rouge') | choix prédéfini  |
+
+
+## :key: Mise en place d'une clé primaire sur notre table
+la clef primaire : **primary key ou PK**
+Afin d'identifier une ligne de facon précise on définit une clef primaire  
+La clef peut être définit par MySQL **AI AUTO_INCREMENT**
+:lock: La contrainte de clef primaire impose d'avoir qu'un seul ID  
+c'est à dire si je rentre le même ID MySQL me bloque
+Car je viole la contrainte de clef primaire
+Nous rajoutons la contrainte de nullité  
+Car notre id ne peut être null
+
+```mysql
+CREATE TABLE film (
+  id int NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
+```
+
