@@ -18,3 +18,22 @@ https://wampserver.aviatechno.net/
 ![aviato](/img/aviato.webp)
 
 
+## 4 nettoyage !
+Après l'installation néttoyer le repertoire **www**
+Ne garder que l'icone !
+
+```
+c:\wamp64\www
+```
+
+```
+C:\  
+│
+└─── wamp64
+│   │
+│   └─── www
+│       │   favicon.ico
+│   
+```
+
+
