@@ -12,8 +12,7 @@ https://www.wampserver.com/fr/
 ## 3 **Si vous avez un problème** de dll :
 https://wampserver.aviatechno.net/
 
--1 : Télécharger les 4 exe
-
+-1 : Télécharger les 4 exe  
 -2 : Si besoin télécharger les 4 autres
 
 ![aviato](/img/aviato.webp)
