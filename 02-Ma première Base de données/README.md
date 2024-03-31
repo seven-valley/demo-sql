@@ -19,8 +19,23 @@ Il est préférable de rajouter l'encodage **UTF8**:
 ```mysql
 CREATE DATABASE ma_data_base CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
+
 Il est possible d'éffacer sa base
-**Attention toutes les tables et donnée seront éffacer !**
+**Attention toutes les tables et donnée seront éffacées !**
 ```mysql
 DROP DATABASE ma_data_base
 ```
+## Création de notre première table
+
+Voici la commande pour créer une table :
+```mysql
+CREATE TABLE film(...);
+```
+
+Effacer une table :
+**Attention toutes les données seront éffacées !**
+```mysql
+DROP TABLE film;
+```
+
+
