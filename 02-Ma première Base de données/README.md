@@ -60,7 +60,7 @@ La clef peut être définit par MySQL **AI AUTO_INCREMENT**
 La contrainte de clef primaire impose d'avoir qu'un seul ID  
 c'est à dire si je rentre le même ID MySQL me bloque
 Car je viole la contrainte de clef primaire
-Nous rajoutons la contrainte de nullité
+Nous rajoutons la contrainte de nullité  
 Car notre id ne peut être null
 
 ```mysql
@@ -76,13 +76,16 @@ Les principaux types de champs:
 
 | Champs | Types | Valeurs |
 |----|---|---|
-| INT | entier | de -2 147 483 648 à 2 147 483 648  |
+| INT | entier | de -2 147 483 648 à **2 147 483 648**  |
 | TINYINT(1)   | entier  | de -128 à 127 |
 | VARCHAR(255)  | chaîne de caractères  | de 0 à 255 caractères  |
 | TEXT | chaîne de caractères  | de 0 à 65 535 caractères  |
+| DECIMAL(3,2) | réels | de -999.00 à 999.00 |
 
 
+Les dates:
 
-date
-datetime
-timestamp
+| DATE | juste la date  |
+| DATETIME | la date et l'heure |
+| TIMESTAMP | la date et l'heure - nobre de secondes écoulées depuis 1 er janv 1970 |
+| YEAR | juste l'année  |
