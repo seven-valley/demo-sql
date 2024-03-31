@@ -17,7 +17,12 @@ CREATE DATABASE ma_base;
 
 Il est préférable de rajouter l'encodage **UTF8**:
 ```mysql
-CREATE DATABASE ma_data_base CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE videotheque CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+Je precise la base que j'utilise
+```mysql
+USE videotheque;
 ```
 
 Il est possible d'éffacer sa base
@@ -38,4 +43,31 @@ Effacer une table :
 DROP TABLE film;
 ```
 
+Il recommander Je peux preciser le **moteur de stockage** de ma table
+InnoDB est un moteur de stockage : **storage engine**
+Sinon par défault j'aurais **MylSAM** au lien de innoDB
+Celà sera problématique pour les contraintes de clefs étrangère
 
+```mysql
+CREATE TABLE film (..) ENGINE=InnoDB; 
+```
+
+
+## Mise en place d'une clé primaire sur notre table
+la clef primaire : **primary key ou PK**
+Afin d'identifier une ligne de facon précise on définit une clef primaire  
+La clef peut être définit par MySQL **AI AUTO_INCREMENT**
+La contrainte de clef primaire impose d'avoir qu'un seul ID  
+c'est à dire si je rentre le même ID MySQL me bloque
+Car je viole la contrainte de clef primaire
+Nous rajoutons la contrainte de nullité
+Car notre id ne peut être null
+
+```mysql
+CREATE TABLE film (
+  id int NOT NULL AUTO_INCREMENT
+);
+```
+
+## Les type de champs : Data types
+https://www.w3schools.com/mysql/mysql_datatypes.asp
