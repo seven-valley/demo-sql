@@ -1,4 +1,8 @@
-# 4 Insertion des données
+# 4 :outbox_tray: Insertion des données
+![star](../img/04/star.webp)
+![matrix](../img/04/matrix.webp)
+![pulp](../img/04/pulp.webp)
+
 
 Pour insérer les données dans une table :
 ```mysql
@@ -42,7 +46,7 @@ INSERT INTO film (titre,sortie) VALUES
 ('PULP FICTION','1994/10/26');
 ```
 
-:warning: **Penser à vider la table** :scream:
+:warning: **Penser à vider la table** :scream:  
 Pour vider la table :
 ```mysql
 DELETE FROM film;
