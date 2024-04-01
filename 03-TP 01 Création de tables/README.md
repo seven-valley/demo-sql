@@ -11,7 +11,7 @@ Chaque personne a :
 - un nom  
 - un age  
 - la date de sont inscription
-- un status : Valide ou NON Valide (un booleéen)
+- un status : Valide ou NON Valide (un booléen)
 - un type : membre ou non membre (une énumération)
 - une description
 - salaire annuel
@@ -19,7 +19,7 @@ Chaque personne a :
 Créer un fichier SQL
 - on efface la base si elle existe
 - avec création de la base
-- tester votre fichier en l'important dans Php my admin
+- tester votre fichier en l'important dans PhpMyadmin
 - uploader votre travail sur GIT
 
 ![brad](../img/03/brad.webp)
