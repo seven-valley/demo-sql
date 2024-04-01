@@ -22,5 +22,5 @@ Créer un fichier SQL
 - tester votre fichier en l'important dans Php my admin
 - uploader votre travail sur GIT
 
-![brad](/img/03/brad.webp)
+![brad](../img/03/brad.webp)
 
