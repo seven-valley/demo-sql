@@ -22,5 +22,3 @@ Créer un fichier SQL
 - tester votre fichier en l'important dans PhpMyadmin
 - uploader votre travail sur GIT
 
-![brad](../img/03/brad.webp)
-![george](../img/03/george.webp)
