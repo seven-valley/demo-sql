@@ -43,10 +43,10 @@ Effacer une table :
 DROP TABLE film;
 ```
 
-Il recommander Je peux preciser le **moteur de stockage** de ma table
-InnoDB est un moteur de stockage : **storage engine**
-Sinon par défault j'aurais **MylSAM** au lien de innoDB
-Celà sera problématique pour les contraintes de clefs étrangère
+Il recommander Je peux preciser le **moteur de stockage** de ma table  
+InnoDB est un moteur de stockage : **storage engine**  
+Sinon par défault j'aurais **MylSAM** au lien de innoDB  
+Celà sera problématique pour les contraintes de clefs étrangère  
 
 ```mysql
 CREATE TABLE film (..) ENGINE=InnoDB; 
