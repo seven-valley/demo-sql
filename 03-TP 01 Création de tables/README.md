@@ -23,4 +23,4 @@ Créer un fichier SQL
 - uploader votre travail sur GIT
 
 ![brad](../img/03/brad.webp)
-
+![george](../img/03/george.webp)
