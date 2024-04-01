@@ -82,7 +82,8 @@ Autres  :
 
 
 ## :key: Mise en place d'une clé primaire sur notre table
-la clef primaire : **primary key** ou **PK**    
+la clef primaire : **primary key** ou **PK**  
+    
 Afin d'identifier une ligne de façon précise on définit une clef primaire    
 La clef primaire peut être définit par MySQL **AI AUTO_INCREMENT**   
 :lock: La contrainte de clef primaire impose d'avoir qu'un seul ID  
