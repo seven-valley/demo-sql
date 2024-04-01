@@ -98,7 +98,7 @@ CREATE TABLE film (
 );
 ```
 ## :movie_camera: Création des autres champs :
-:warning: Chaque ligne est terminée par une **virgule** 
+:warning: Chaque ligne est terminée par une **virgule**   
 **sauf la dernière ligne**
 ```mysql
 USE videotheque;
