@@ -90,7 +90,7 @@ c'est à dire si je rentre le même ID MySQL me bloque
 Car je viole la contrainte de clef primaire  
   
 Nous rajoutons aussi la **contrainte de nullité**    
-Car notre id ne peut être null  
+Car notre id ne peut être null
 
 ```mysql
 CREATE TABLE film (
@@ -98,7 +98,8 @@ CREATE TABLE film (
 );
 ```
 ## :movie_camera: Création des autres champs :
-:warning: Chaque ligne et terminée par une **virgule** 
+:warning: Chaque ligne est terminée par une **virgule** 
+**sauf la dernière ligne**
 ```mysql
 USE videotheque;
 CREATE TABLE film (
@@ -120,7 +121,7 @@ CREATE TABLE film (
 ) ENGINE=InnoDB;
 ```
 
-je peux rajouter des de commentaires avec **#** ou **--**
+je peux rajouter des commentaires avec **#** ou **--**
 
 ```mysql
 -- je selectionne ma database : videotheque
