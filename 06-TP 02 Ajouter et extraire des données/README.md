@@ -32,3 +32,12 @@
 - proposer une requete avec LIKE '%..%'
 
 - Trier par age les membres
+
+
+# Correction parti 1
+```mysql
+INSERT INTO 
+(prenom,nom,age,inscription,description,salaire)
+VALUES 
+('Brad','PITT',59,'1970-01-01','lorem ipsum',2000000);
+```
