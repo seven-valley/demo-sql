@@ -76,4 +76,8 @@ afficher 0 factures si il n'y a pas de factures
 avec le nombre de jours de retard
 
 
-
+# Partie 3 réaliser un modèle relationnel
+  
+Réaliser le modèle relationnel sur db diagram  
+  
+https://dbdiagram.io/
