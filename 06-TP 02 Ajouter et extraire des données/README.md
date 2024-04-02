@@ -16,9 +16,9 @@ description
 salaire
 | prenom | nom | age | inscription | statut | type | description | salaire |
 |----|---|---|---|---|---|---|---|
-| Brad | PITT | 60 | 01/01/1970 | 1 | non membre | 1 | lorem ipsum | 2 000 000 |
-| George | Cloney | 62 | 01/01/1999 | 1 | membre | 1 | juste beau | 4 000 000 |
-| Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | 1 | brice de nice | 1 000 000 |
+| Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
+| George | Cloney | 62 | 01/01/1999 | 1 | membre  | juste beau | 4 000 000 |
+| Jean | DUJARDIN | 51 | 01/01/1994 | 0 | membre | brice de nice | 1 000 000 |
 
 - afficher le plus gros chiffre d'affaire (avec MAX)
 
