@@ -6,14 +6,7 @@
 ![george](../img/03/george.webp)
 ![jean](../img/03/jean.webp)
 
- prenom
-nom  
-age  
-inscription
-statut
-type
-description
-salaire
+
 | prenom | nom | age | inscription | statut | type | description | salaire |
 |----|---|---|---|---|---|---|---|
 | Brad | PITT | 60 | 01/01/1970 | 1 | non membre | lorem ipsum | 2 000 000 |
