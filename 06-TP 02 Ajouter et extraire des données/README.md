@@ -4,11 +4,11 @@
 
 ![brad](../img/03/brad.webp)
 ![george](../img/03/george.webp)
-
+![jean](../img/03/jean.webp)
 
 - afficher le plus gros chiffre d'affaire (avec MAX)
 
--afficher le plus petit chiffre d'affaire (avec MIN)
+- afficher le plus petit chiffre d'affaire (avec MIN)
 
 - afficher le nom de la personne du plus petit CA
 
