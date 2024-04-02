@@ -1,5 +1,12 @@
 # CRM Customer  Relationship Management
 Gestion des devis et factures d'une entreprise
+  
+Le client a un projet
+En fonction du projet , nous lui proposons plusieurs devis  
+Il valide un devis  
+Nous lui envoyons une facture  
+  
+  
 ## Modele relationnel
 ![crm](../img/08/crm.webp)
 ## Les Clients
