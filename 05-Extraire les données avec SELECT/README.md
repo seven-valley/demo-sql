@@ -23,24 +23,24 @@ FROM film
 je peux aussi mettre une condition avec **WHERE**
 ```mysql
 SELECT 
-    id,titre,sortie
-    FROM film
-    WHERE id=1
+id,titre,sortie
+FROM film
+WHERE id=1
 ```
 ### LIMIT
 je peux aussi limiter le nombre de résultats avec **LIMIT** 
 ```mysql
 SELECT 
-    id,titre,sortie
-    FROM film
-    LIMIT 2
+id,titre,sortie
+FROM film
+LIMIT 2
 ```
 ### ORDER BY
 Pour classer les film par date justilise **ORDER BY**
 avec **ASC** ou **DESC**
 ```mysql
 SELECT 
-    id,titre,sortie
-    FROM film
-    ORDER BY sortie DESC
+id,titre,sortie
+FROM film
+ORDER BY sortie DESC
 ```
