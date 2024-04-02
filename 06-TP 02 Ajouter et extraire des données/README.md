@@ -34,7 +34,7 @@
 - Trier par age les membres
 
 
-# Correction parti 1
+# Correction partie 1
 ```mysql
 INSERT INTO 
 (prenom,nom,age,inscription,description,salaire)
