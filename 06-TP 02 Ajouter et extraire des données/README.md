@@ -15,7 +15,7 @@ type
 description
 salaire
 | prenom | nom | age | inscription | statut | type | description | salaire |
-|----|---|---|
+|----|---|---|---|---|---|---|---|
 | Brad | PITT | 60 | 1 | 01/01/1970 | non membre | 1 | lorem ipsum | 2 000 000 |
 | George | Cloney | 62 | 1 | 01/01/1999 | membre | 1 | juste beau | 4 000 000 |
 | Jean | DUJARDIN | 51 | 0 | 01/01/1994 | membre | 1 | brice de nice | 1 000 000 |
