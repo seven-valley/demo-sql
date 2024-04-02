@@ -37,3 +37,5 @@ salaire
 - proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER()
 
 - proposer une requete avec LIKE '%..%'
+
+- Trier par age les membres
