@@ -22,4 +22,4 @@
 
 - proposer une requete avec UCASE(), UPPER(),LCASE(),LOWER()
 
--proposer une requete avec LIKE '%..%'
+- proposer une requete avec LIKE '%..%'
