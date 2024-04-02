@@ -34,7 +34,7 @@ CREATE TABLE personne(
     prenom VARCHAR(100) NOT NULL DEFAULT 'Toto', 
     nom VARCHAR(100) NOT NULL, 
     age TINYINT(1) NOT NULL,
-    inscription DATE NOT NULL DEFAULT NOW(),
+    inscription DATE NOT NULL,
     statut TINYINT(1) NOT NULL DEFAULT 1,
     type ENUM('membre','NON MEMBRE') NOT NULL DEFAULT 'NON MEMBRE',
     description TEXT,
