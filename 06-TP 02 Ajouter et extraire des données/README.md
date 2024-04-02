@@ -36,7 +36,7 @@
 
 # Correction partie 1
 ```mysql
-INSERT INTO 
+INSERT INTO personne
 (prenom,nom,age,inscription,description,salaire)
 VALUES 
 ('Brad','PITT',59,'1970-01-01','lorem ipsum',2000000);
