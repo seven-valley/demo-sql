@@ -40,9 +40,9 @@ CREATE TABLE personne(
     description TEXT,
     salaire INT NOT NULL
 )ENGINE=InnoDB;
+```
 
-
-
+```mysql
 DROP TABLE IF EXISTS `personne`;
 CREATE TABLE IF NOT EXISTS `personne` (
   `id` int NOT NULL AUTO_INCREMENT,
