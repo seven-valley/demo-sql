@@ -8,11 +8,11 @@ Nous lui envoyons une facture
   
 
 ## Modele relationnel
-![crm](../img/08/crm.webp)
+![crm](../img/11/crm.webp)
 ## Les Clients
-![client](../img/08/client.png)
+![client](../img/11/client.png)
 ## Les factures
-![facture](../img/08/facture.png)
+![facture](../img/11/facture.png)
 
 ## Les data
 ```mysql
