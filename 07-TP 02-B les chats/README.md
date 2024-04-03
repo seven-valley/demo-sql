@@ -2,10 +2,10 @@
 
 ![terminal](/img/07/tableau.png)
   
-![maincoon](/img/09/maincoon.png)
-![siamois](/img/09/siamois.png)
-![bengal](/img/09/bengal.png)
-![scottish](/img/09/scottish.png)
+![maincoon](/img/09/maincoon.webp)
+![siamois](/img/09/siamois.webp)
+![bengal](/img/09/bengal.webp)
+![scottish](/img/09/scottish.webp)
 
 1 - Créer la data base **zoo**  
 2 - Créer la table **chat**  
