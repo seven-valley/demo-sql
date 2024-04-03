@@ -1,4 +1,4 @@
-# plan de la formation
+# Plan de la formation
 
 ## JOUR 1
 
@@ -26,7 +26,7 @@
 
 **TP invitation**
 Création d'une table personne
-
+![personne](./personne.png)
 
 ## JOUR 2
 
@@ -37,6 +37,7 @@ TP de Révision chat du JOUR 1
 - créer une clef étrangère  
 - remplir une table avec un clef étrangère  
 - Présentation de db diagram  
+![salade](./img/salade.png)
 
 **TP chat avec jointure**
 Création d'une table chat et couleur
