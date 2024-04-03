@@ -34,9 +34,9 @@ Création d'une table personne
 TP de Révision chat du JOUR 1
 
 ### la clef étrangère
-créer une clef étrangère
-remplir une table avec un clef étrangère
-Présentation de db diagram
+- créer une clef étrangère  
+- remplir une table avec un clef étrangère  
+- Présentation de db diagram  
 
 **TP chat avec jointure**
 Création d'une table chat et couleur
