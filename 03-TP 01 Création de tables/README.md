@@ -41,7 +41,7 @@ CREATE TABLE personne(
     salaire INT NOT NULL
 )ENGINE=InnoDB;
 ```
-
+code générer par **phpMyAdmin**
 ```mysql
 DROP TABLE IF EXISTS `personne`;
 CREATE TABLE IF NOT EXISTS `personne` (
