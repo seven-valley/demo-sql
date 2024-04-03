@@ -1,7 +1,8 @@
 # Table de jointure
 
-![salade](/img/09/salade.png)
-
+![salade](/img/08/salade.png)
+  
+![salade](/img/10/salade.png)
 propmt db diagram :
 
 ```
