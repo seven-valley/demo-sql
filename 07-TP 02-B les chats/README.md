@@ -1,5 +1,11 @@
 # TP 02 B les chats
+
 ![terminal](/img/07/tableau.png)
+  
+![maincoon](/img/09/maincoon.png)
+![siamois](/img/09/siamois.png)
+![bengal](/img/09/bengal.png)
+![scottish](/img/09/scottish.png)
 
 1 - Créer la data base **zoo**  
 2 - Créer la table **chat**  
