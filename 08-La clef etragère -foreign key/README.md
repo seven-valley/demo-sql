@@ -6,11 +6,11 @@
 propmt db diagram :
 
 ## Une clef étrangère ?
-- C'est la clef primaire d'une autre table
-- mise en place d'un contrainte d'intégrité de clef étragère:
-  je viens vérifier que l'id ajouter est un id de clef primaire
-- La clef étragère couleur_id de la table fruit  
-doit correspondre à la clef primaire de couleur
+- c'est la clef primaire d'une autre table
+- mise en place d'un **contrainte d'intégrité** de clef étragère:
+  - je viens vérifier que l'id ajouter est un id de clef primaire  
+  - La clef étragère couleur_id de la table fruit  
+doit correspondre à la clef primaire de couleur  
 
 # relation clef étrangère :
 **Many to One** et **One To many**
@@ -75,7 +75,9 @@ INSERT INTO fruit (nom,couleur_id) VALUES ('pomme',1),('poire',2),('cerise',NULL
 
 # Mise en place d'une jointure
 https://www.w3schools.com/mysql/mysql_join_inner.asp
+  
 ![inner](/img/08/inner.png)  
+  
 ```mysql
 SELECT *
 FROM fruit
@@ -91,7 +93,8 @@ SELECT f.nom,c.nom
 FROM fruit AS f
 INNER JOIN couleur AS c on f.couleur_id = c.id;
 ```
-
+![inner2](/img/08/inner2.png)  
+  
 ## le LEFT JOIN
 ![left](/img/08/left.png)  
 https://www.w3schools.com/sql/sql_join_left.asp
@@ -101,6 +104,7 @@ SELECT f.nom,c.nom
 FROM fruit AS f
 LEFT JOIN couleur AS c on f.couleur_id = c.id;
 ```
+![left2](/img/08/left2.png) 
 
 # le RIGHT JOIN 
 ![right](/img/08/right.png)  
@@ -111,3 +115,4 @@ SELECT f.nom,c.nom
 FROM fruit AS f
 RIGHT JOIN couleur AS c on f.couleur_id = c.id;
 ```
+![right2](/img/08/right2.png)  
