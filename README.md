@@ -42,3 +42,16 @@ TP de Révision chat du JOUR 1
 
 **TP chat avec jointure**
 Création d'une table chat et couleur
+
+## JOUR 3
+
+### Les Jointures :
+LEFT RIGHT ou INNER JOIN ?
+Mettre en place des jointures pour extraires les données
+
+### TP Chats
+- Afficher les chat avec les couleurs des yeux 
+
+### TP CRM 
+- Extraire les données avec plusieurs jointure
+- mettre en place un left join
