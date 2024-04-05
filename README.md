@@ -55,3 +55,15 @@ Mettre en place des jointures pour extraires les données
 ### TP CRM 
 - Extraire les données avec plusieurs jointure
 - mettre en place un left join
+
+
+## JOUR 4 
+
+### les tables de jointures
+Créer une table de jointure 
+
+### TP location ski
+
+
+
+
