@@ -100,7 +100,14 @@ Créer la base de données
 
 # Partie 2
 1 - Afficher toutes les factures avec le nom des clients  
-  
+```mysql
+SELECT client.nom , facture.reference
+FROM client
+INNER JOIN projet ON projet.client_id = client.id
+INNER JOIN devis ON devis.projet_id = projet.id
+INNER JOIN facture ON facture.devis_id = devis.id;
+```
+
 2 - Afficher le nombre de factures par client
 afficher 0 factures si il n'y a pas de factures
 ```mysql
@@ -112,14 +119,30 @@ LEFT JOIN facture ON facture.devis_id = devis.id
 GROUP BY (client.id);
 ```
 3 - afficher le chiffre d'affaire par client 
-
+```mysql
+SELECT client.nom , SUM(facture.total)
+FROM client
+LEFT JOIN projet ON projet.client_id = client.id
+LEFT JOIN devis ON devis.projet_id = projet.id
+LEFT JOIN facture ON facture.devis_id = devis.id
+GROUP BY (client.id);
+```
 4 - afficher le CA total
-
+```mysql
+SELECT SUM(total) FROM facture;
+```
 5 - afficher  la somme des factures en attente de paiement
-
+```mysql
+SELECT SUM(total) FROM facture WHERE date_paiement IS NULL;
+```
 6 - afficher les factures en retard de paiment 30 jours max
 avec le nombre de jours de retard
-
+```mysql
+SELECT reference,DATEDIFF(CURDATE(),date_crea) AS nb_jours
+FROM facture 
+WHERE date_paiement IS NULL
+AND DATEDIFF(CURDATE(),date_crea)  > 30;
+```
 
 # Partie 3 réaliser un modèle relationnel
   
