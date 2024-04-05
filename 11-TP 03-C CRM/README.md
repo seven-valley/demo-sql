@@ -14,6 +14,44 @@ Nous lui envoyons une facture
 ## Les factures
 ![facture](../img/11/facture.png)
 
+## la structure
+```mysql
+CREATE TABLE `client` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `nom` varchar(255) NOT NULL
+);
+
+CREATE TABLE `projet` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `client_id` int NOT NULL,
+  `nom` varchar(255)
+);
+
+CREATE TABLE `devis` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `version` int NOT NULL,
+  `reference` varchar(10) NOT NULL,
+  `prix` float NOT NULL,
+  `projet_id` int NOT NULL
+);
+
+CREATE TABLE `facture` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `reference` varchar(10) NOT NULL,
+  `info` varchar(255) NOT NULL,
+  `total` float NOT NULL,
+  `date_crea` date NOT NULL,
+  `date_paiement` date,
+  `devis_id` int NOT NULL
+);
+
+ALTER TABLE `projet` ADD FOREIGN KEY (`client_id`) REFERENCES `client` (`id`);
+
+ALTER TABLE `devis` ADD FOREIGN KEY (`projet_id`) REFERENCES `projet` (`id`);
+
+ALTER TABLE `facture` ADD FOREIGN KEY (`devis_id`) REFERENCES `devis` (`id`);
+```
+
 ## Les data
 ```mysql
 DELETE FROM client;
@@ -65,7 +103,14 @@ Créer la base de données
   
 2 - Afficher le nombre de factures par client
 afficher 0 factures si il n'y a pas de factures
-
+```mysql
+SELECT client.nom , COUNT(facture.reference)
+FROM client
+LEFT JOIN projet ON projet.client_id = client.id
+LEFT JOIN devis ON devis.projet_id = projet.id
+LEFT JOIN facture ON facture.devis_id = devis.id
+GROUP BY (client.id);
+```
 3 - afficher le chiffre d'affaire par client 
 
 4 - afficher le CA total
